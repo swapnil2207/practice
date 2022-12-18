@@ -1,0 +1,88 @@
+@media (min-width: 992px) and (max-width:1199px){
+
+    #banner .banner_slider .banner_cnt h2 {
+
+    font-size: 50px;
+    line-height: 50px;
+
+}
+
+#banner .slick-dots{
+    position: absolute;
+    bottom: 15%;
+    left: 28px;
+}
+}
+
+@media(min-width:768px) and (max-width:991px){
+    #banner .banner_slider {
+    height: 500px;
+   
+}
+
+#banner .banner_slider .row {
+    height: 500px;
+}
+
+#banner .banner_slider .banner_cnt h2 {
+    font-size: 34px;
+    line-height: 47px;
+ }
+
+ .button {
+    font-size: 13px;
+    padding: 16px 28px;
+}
+
+#banner .slick-dots{
+   
+    left: 28px;
+ 
+}
+}
+
+@media (min-width:320px) and (max-width:767px){
+    #banner .banner_slider .row {
+    height: 300px;
+}
+
+#banner .banner_slider {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner .banner_slider .banner_cnt h2 {
+    font-size: 15px;
+    line-height: 33px;
+ 
+}
+
+#banner .banner_slider .banner_cnt p {
+  
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.button {
+   
+    padding: 7px 1px;
+    
+}
+#banner .slick-dots button {
+    width: 17px;
+    height: 11px;
+    
+}
+
+#banner .slick-dots {
+    bottom: 0;
+    left: 100px;
+}
+
+#banner .slick-dots button{
+    transform: scale(0.5);
+}
+
+}
+

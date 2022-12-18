@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+    --primarycolor: #FF6F61;
+}
+
+body{
+    font-family: var(--primaryFont);
+}
+
+.button{
+    background-color: var(--primarycolor);
+    padding: 19px 37px;
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*Nav bar Starts here*/
+#Customnav ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #11161E;
+    padding: 42px 22px;
+
+}
+
+#Customnav ul li a:hover{
+    color:var(--primarycolor);
+}
+
+nav .iconpanel ul li{
+    display: inline-block;
+    color: #11161E;
+}
+
+nav .iconpanel ul li a{
+  font-size: 20px;
+  padding: 0 13px;
+  color: #11161E;
+  position: relative;
+}
+
+nav .iconpanel ul li a .overlay{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: var(--primarycolor);
+    display: block;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 15px;
+    top: 0;
+    right: 0;
+
+}
+
+nav .togglerButton{
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0 15px;
+}
+
+nav #smallMenu .offcanvaslogo{
+height: 40px;
+}
+ 
+nav #smallMenu .small_menu li a{
+    font-size: 18px;
+    color: black;
+    border-bottom: 1px solid #ccc;
+}
+
+/*Nav bar Ends here*/
+
+/*Banner starts here*/
+#banner{
+    position: relative;
+}
+
+#banner .banner_slider{
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+
+}
+#banner .banner_slider .row{
+    height: 800px ;
+}
+
+#banner .banner_slider .banner_cnt{
+    width: 40%;
+}
+
+#banner .banner_slider .banner_cnt h3{
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #1D1D1D;
+}
+
+#banner .banner_slider .banner_cnt h2{
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+color: #1D1D1D;
+transition-delay: 0.4s;
+}
+
+#banner .banner_slider .banner_cnt p{
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #1D1D1D;
+margin: 15px 0;
+transition-delay: 0.8s;
+}
+
+#banner .banner_slider .banner_cnt a{
+    transition-delay: 1s;
+}
+
+#banner .banner_slider .banner_cnt > *{
+ transform: translateY(100px);
+ opacity: 0;
+ transition: 0.8s ease;
+ }
+
+#banner .banner_slider.slick-active .banner_cnt > *{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+
+#banner .slick-dots{
+    position: absolute;
+    bottom: 15%;
+    left: 100px;
+}
+
+#banner .slick-dots li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#banner .slick-dots button{
+    width: 25px;
+    height: 12px;
+    border: none;
+    border-radius: 6px;
+    color: transparent;
+    transition: 0.5s;
+}
+
+#banner .slick-dots .slick-active button{
+    width: 40px;
+    background-color: var(--primarycolor);
+}
+
+/*Banner ends here*/
